@@ -153,3 +153,22 @@ body{
 
     display: none;
 }
+
+/* boletos */
+
+.boletos .precio{
+
+    font-size: 2rem;
+}
+
+.boletos .active{
+
+    background-color: #752f97;
+    border-color: #752f97;
+}
+
+.list-group-item-success{
+
+    background-color: #4cb8b3!important;
+    border-color: #4cb8b3!important
+}
