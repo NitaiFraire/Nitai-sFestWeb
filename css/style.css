@@ -131,3 +131,25 @@ body{
 
     background-color: #3ca8a2;
 }
+
+/* Fecha */
+
+.fecha{
+
+    font-size: 2.8rem;
+}
+
+.fecha span{
+
+    font-weight: 700;
+}
+
+.fecha span::before{
+
+    content: '-';
+}
+
+.fecha span:first-child::before{
+
+    display: none;
+}
